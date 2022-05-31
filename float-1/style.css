@@ -1,0 +1,58 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+    background-color: gray
+  }
+
+  a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8492a6;
+    text-decoration: none;
+  }
+
+.tab-tab{
+    max-width: 540px;
+    
+    list-style-type: none;
+    padding-left: 0;
+    border-bottom: 1px solid white;
+   
+    background-color: #fff;
+    display: flex;
+    
+    
+}
+
+
+.tab{
+    left: 0;
+    margin-right: 16px;
+
+}
+
+.tab a{
+    display: block;
+    padding: 16px 20px 16px 20px;
+    
+}
+
+
+.tab a:hover{
+    font-weight: 500;
+    color: blue;
+    border-bottom: 4px solid blue;
+}
+.tab a:active{
+    font-weight: 500;
+    color: black;
+    border-bottom: 4px solid black;
+
+}

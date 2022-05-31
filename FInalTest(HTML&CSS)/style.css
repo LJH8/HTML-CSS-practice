@@ -1,0 +1,596 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+  
+}
+
+
+
+.first{
+    background-color: #FDDED8;
+    
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.first-title{
+    letter-spacing: -0.05em;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 24px;
+
+}
+.first-story{
+    letter-spacing: -0.01em;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 22px;
+}
+
+.first-box1{
+    width: 140px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #3040C4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border: none;
+    line-height: 24px;
+}
+
+.first-box2{
+    width: 140px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    color: #3040C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 8px;
+    border: none;
+    line-height: 24px;
+
+}
+.PC{
+    display: none;
+}
+
+.first-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second{
+   
+    height: 496px;
+    background-color: #F4F5F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.second-title{
+    width: 290px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    text-align: left;
+    letter-spacing: -0.04em;
+}
+
+.second-story1{
+    width: 290px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    letter-spacing: -0.01em;
+    
+}
+
+.second-story2{
+    width: 290px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+
+
+.thr{
+   
+    height: 1377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thr-title1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #009B4D;
+    margin-bottom: 8px;
+}
+
+.thr-main{
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+}
+
+.thr-story{
+    margin-bottom: 32px;
+    letter-spacing: -0.01em;
+}
+
+
+.thr-all{
+    width: 290px;
+}
+
+.thr-picture{
+    width: 290px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px 0px #0000000D, 
+                 0px 1px 3px 0px #0000001A,
+                  0px 1px 0px 0px #FFFFFF1A inset;
+    margin-bottom: 20px;
+
+    
+}
+
+.thr-pic-1{
+    display: block;
+    background-image: url(img-fulltime-campus.png);
+    width: 142px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+
+}
+
+.thr-pic-2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.thr-picture-2{
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px 0px #0000000D, 
+                 0px 1px 3px 0px #0000001A,
+                  0px 1px 0px 0px #FFFFFF1A inset;
+                  margin-bottom: 20px;
+
+    
+}
+
+.thr-pic-3{
+    display: block;
+    background-image: url(img-fulltime-remote.png);
+    width: 142px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+
+}
+
+.thr-pic-4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.thr-picture-3{
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px 0px #0000000D, 
+                 0px 1px 3px 0px #0000001A,
+                  0px 1px 0px 0px #FFFFFF1A inset;
+
+    
+}
+
+.thr-pic-5{
+    display: block;
+    background-image: url(img-parttime-flex.png);
+    width: 142px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+
+}
+
+.thr-pic-6{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.four{
+    height: 706px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-all{
+    width: 290px;
+}
+
+.four-title1{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color:#0189D1;
+    margin-bottom: 8px;
+    
+}
+
+.four-title2{
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+
+}
+
+.four-main{
+   
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.01em;
+text-align: left;
+margin-bottom: 32px;
+
+}
+
+.four-apply a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    text-decoration: none;
+    
+}
+
+.four-apply{
+    width: 140px;
+    height: 48px;
+    border-radius: 2px;
+    margin-bottom: 48px;
+    background-color:#3040C4 ;
+    border: none;
+    
+}
+
+.four-main2{
+    font-family: DM Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.01em;
+text-align: left;
+margin-bottom: 40px;
+}
+
+.four-main3{
+    font-family: DM Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+
+.five{
+    height: 588px;
+    background-color: #F2F8FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.five-all{
+    width: 290px;
+    
+}
+
+.five-pic{
+    display: block;
+    background-image: url(img-banner.png);
+    width: 191px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.five-pic-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 41px;
+}
+
+.five-title{
+    margin-bottom: 16px;
+}
+
+.five-main{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.01em;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.five-email{
+    width: 290px;
+    height: 48px;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+    
+}
+
+.five-button{
+    width: 290px;
+    height: 48px;
+    background-color:#3040C4 ;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.five-button a{
+    color:#FFFFFF ;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    
+}
+
+.five-last{
+    font-family: DM Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+color: #7B7B7E;
+
+}
+
+.six{
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six-all{
+    width: 290px;
+}
+.six-ul{
+    list-style: none;
+    padding: 0;
+    
+}
+
+.six-list a{
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.01em;
+text-align: left;
+text-decoration: none;
+color: #807F81;
+
+display: inline-block;
+padding-bottom: 8px;
+
+
+    
+}
+
+@media screen and (min-width:321px){
+    .mobile{
+        display: none;
+    }
+
+    .PC{
+        display: inline;
+    }
+
+    
+    .first-title{
+        
+        font-size: 70px;
+        line-height: 72px;
+        letter-spacing: -0.05em;
+    }
+
+    .first-story{
+        
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        
+    }
+
+    
+    .second{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 340px;
+       
+
+    }
+
+    .second-story1{
+        margin: 0;
+    }
+    .second-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 110px;
+    }
+        
+    .second-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .second-title,.second-story1{
+        width: 370px;
+    }
+
+    .second-title{
+        font-size: 26px;
+    }
+
+    .second-story1{
+       font-family: DM Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+
+    }
+
+    .thr-all{
+        width: 1440px;
+        display: contents;
+    }
+
+    .thr{
+        height: 827px;
+        
+        
+    }
+
+    .all-picture{
+        display: flex;
+        
+        
+       
+    }
+
+    .thr-picture{
+        width: 290px;
+        margin-right: 30px;
+    }
+    
+    .thr-picture-2{
+        width: 290px;
+        margin-right: 30px;
+    }
+    .thr-picture-3{
+        width: 290px;
+    }
+
+    .thr-story{
+        width: 770px;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 72px;
+
+    }
+    .thr-main{
+        width: 466px;
+        font-size: 56px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        line-height: 56px;
+        margin-bottom: 32px;
+    }
+
+    .thr-title1{
+        width: 88px;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        margin-bottom: 16px;
+    }
+
+    
+    .four-img{
+        background-image: url(https://github.com/rohjs/bugless-101/blob/master/css-practice/final/assets/img-curriculum.png?raw=true);
+        width: 425px;
+        height: 426px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .four-group1{
+        display: flex;
+    }
+}

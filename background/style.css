@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0;
+
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+.sr-only{
+    position: absolute;
+    z-index: -100;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.photo{
+    width: 300px;
+    height: 200px;
+    background-image: url(https://github.com/rohjs/bugless-101/blob/master/css-basic/background/assets/img-house.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+    border-radius: 6px;
+    position: relative;
+    
+}
+
+
+.photo img{
+    height: 100%;
+    width: auto;
+
+}
+
+.badge{
+    padding: 1px 8px;
+    display: inline-block;
+    line-height: 1.4285714286;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: #92174D;
+    width: 48px;
+    height: 22px;
+    border-radius: 4px;
+}
+
+.type span{
+    
+    font-size: 16px;
+    line-height: 1.25;
+    color: #7D858F;
+    margin-left: 8px;
+}
+
+.rate{
+    font-size: 16px;
+    line-height: 1.25;
+    color: #151B26;
+}
+
+.rate strong{
+    font-weight: 400;
+}
+
+.rate span{
+    color: #7D858F;
+}
+
+.rate::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(https://raw.githubusercontent.com/rohjs/bugless-101/cc64c9b6e3b2b5a230bd0b0507c2e2fe9ec0a2e5/css-basic/background/assets/icon-star.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 2px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 9px;
+    line-height: 32px;
+    
+
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.dl {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    color:#7D858F ;
+
+
+}
+
+.dl dd span::after{
+    content: '•';
+    margin: 0 8px;
+}
+
+.dl dd span:last-child::after{
+    content: '';
+    margin: 0;
+}
+
+.dl div:last-child{
+    margin-top: 8px;
+}
+
+.card{
+    width: 840px;
+    display: flex;
+    padding: 24px;
+    
+    
+    
+}
+
+.main{
+    margin-left: 24px;
+    flex-grow: 1;
+    
+}
+
+.circle{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    background-image: url(https://raw.githubusercontent.com/rohjs/bugless-101/cc64c9b6e3b2b5a230bd0b0507c2e2fe9ec0a2e5/css-basic/background/assets/icon-favorite.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 24px 24px;
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    left: 12px;
+}

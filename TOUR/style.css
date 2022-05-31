@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    padding: 0;
+}
+
+h1,h2,h3,h4{
+    font-family:'Source Serif Pro', serif;
+    margin: 0;
+}
+
+/* section one */
+
+.section-intro{
+    background-color: #6998ab;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.log{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    color: white;
+}
+
+.dot{
+    color: black;
+}
+
+
+.menu ul{
+    display: flex;
+    color: rgba(255,255,255,.7);
+    height: auto;
+    margin: 0;
+    font-size: 14px;
+}
+
+.menu ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.menu ul li{ 
+    padding: 15px 15px;
+}
+
+.menu ul li:last-child{
+    margin: 0;
+}
+
+.menu li i{
+    padding-left: 5px;
+}
+
+.enjoy{
+    color: white;
+    font-size: 60px;
+    margin-top: 70px;
+}
+
+.place form{
+    padding: 30px;
+    width: 635px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 30%);
+    
+
+    
+}
+
+.place-top{ 
+    display: flex;
+}
+
+.place form select,.date{
+    border: 2px solid #e9ecef;
+    font-size: 16px;
+    height: 45px;
+    width: 100%;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+ 
+}
+
+.people{
+    border: 2px solid #e9ecef;
+    font-size: 16px;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+}
+
+.date p{
+    padding-top: 8px;
+}
+
+.place .date{
+    display: flex;
+    text-align: center;
+}
+
+.place-button{
+    width: 27%;
+    background-color: #1f425c;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: block;
+    padding: 12px 30px;
+    font-size: 14px;
+    color: white;
+}
+
+.place-button:hover{
+    background-color: #2a4f6b;
+    transition: background-color 300ms;
+}
+
+.place-checkbox{
+    height: auto;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.place-bottom{
+    display: flex;
+    
+}
+
+.place-bottom span{
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.place form{
+    margin-bottom: 150px;
+  
+}
+
+.first-main{
+    z-index: 4;
+}
+
+img{
+    top: 120px;
+    right: 150px;
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    border-radius: 200px;
+    z-index: 0;
+}

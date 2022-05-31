@@ -1,0 +1,349 @@
+/* setting */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul{
+    padding-left: 0;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #2F7AF4;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 57px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+/* first-section */
+
+.intro{
+    background-image: url(intro.png) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 718px;
+}
+
+.banner{
+    width: 1280px;
+    height: 86px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serach-area{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 24px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.menu{
+    display: flex;
+    width: auto;
+    
+}
+
+.menu a{
+    display: block;
+    line-height: 86px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+form input{
+    border: none;
+    background-color:rgb(0,0,0,0.0);
+    width: 82%;
+    height:100%;
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
+   
+}
+
+form i{
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 25px;
+    color: black;
+    opacity: 1;
+}
+.center{
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 231px;
+    
+}
+
+.center h1, p{
+    font-weight: 200;
+}
+
+/* second section */
+
+.second{
+    margin: auto;
+    display: flex;
+    width: 1280px;
+
+}
+
+.second li{
+    flex: 1;
+    text-align: center;
+    height: 132px;
+    background-color: white;
+    position: relative;
+    top: -66px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.second-box{
+    border-right: 2px solid #E1E1E1;
+}
+
+li:last-child .second-box{
+
+    border: none;
+}
+.second dd{
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 4px;
+}
+
+.second dt{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 200;
+}
+
+/* thrid-section */
+
+.thrid{
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background-color: #F1F2F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thrid h1{
+    padding-top: 132px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.thrid p{
+    text-align: center;
+}
+
+.root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 413px;
+    height: 302px;
+    background-color: white;
+   
+
+    
+}
+
+.plan{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 49px 0;
+    
+}
+
+.root img{
+    display: block;
+    width: 136px;
+    height: 127px;
+}
+
+.root strong{
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+
+.root p{
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 8px;
+}
+
+.root a{
+    width: 100px;
+    height: 30px;
+    background-color: #2F7AF4;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 15px;
+    
+}
+
+.four{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.four-title h1{
+    font-weight: 200;
+}
+
+.four-main{
+    display: flex;
+
+    margin: 49px 0;
+    width: 1280px;
+}
+
+.four-pic img{
+    width: 640px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+.four-story h1{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.four-story p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.last{
+    background-image: url(contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 417px;
+}
+
+.last-first-pic{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-first-pic li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.last-first-pic h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+
+.last-first-pic p{
+    font-size: 20px;
+    font-size: 200;
+    margin-bottom: 15px;
+}
+
+.last-first-pic a{
+    width: 220px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    
+}
+
+.last-first-pic a:hover{
+    background-color: gray;
+    transition: background-color 1000ms;
+    
+}
+.real-last{
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+    font-size: 40px;
+}
+
+.people{
+    flex: 9;
+    margin: 50px 0;
+}
+
+

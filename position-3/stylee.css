@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.title{
+    margin-bottom: 4px;
+    
+    
+}
+
+.desc{
+    width: 400px;
+    
+    font-size: 16px;
+    font-family: "Nunito Sans" sans-serif;
+    margin: 0 auto 24px;
+   
+}
+
+#close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url(https://raw.githubusercontent.com/rohjs/bugless-101/cc64c9b6e3b2b5a230bd0b0507c2e2fe9ec0a2e5/css-basic/position-3/assets/icon-close.svg);
+}
+
+.write input{
+    
+    
+    width: 200px;
+    height: 36px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    border: none;
+    padding: 0 16px;
+    margin-right: 8px;
+    
+    
+}
+
+.write button{
+   
+    padding: 0 14px;
+    height: 36px;
+    border: none;
+    background-color: #2860E1;
+    border-radius: 4px ;
+    color: white;
+    font-size: 14px;
+    
+    
+    
+}
+
+
+.read{
+    padding: 32px 40px 32px  ; 
+    position: fixed;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    text-align: center;
+}
